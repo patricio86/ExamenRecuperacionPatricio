@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BaseDatos">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Insertar/Seleccionar Coches" />
+
+    <EditText
+        android:id="@+id/insertarmodelo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/nombremodelo"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/insertarmarca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/nombremarca"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/insertarcv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/cv"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="insertar"
+        android:text="INSERTAR" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Modelo de coche a modificar"
+        android:inputType="textPersonName" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editTextTextPersonName5"
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Nuevo  valor  CV"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="195dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="MODIFICAR CV" />
+
+    </TableRow>
+
+    <TextView
+        android:id="@+id/listado"
+        android:layout_width="match_parent"
+        android:layout_height="414dp" />
+
+</LinearLayout>

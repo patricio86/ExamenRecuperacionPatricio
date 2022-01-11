@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ExamenRecuperacionPatricio</string>
+    <string name="botonrelativo">ACTRELATIVE</string>
+    <string name="mensaje">MESSAGE</string>
+    <string name="actbbdd">ACT BBDD</string>
+    <string name="nombremodelo">Model</string>
+    <string name="nombremarca">Brand</string>
+    <string name="cv">cv</string>
+    <string name="insert">INSERT</string>
+    <string name="MODIFICAR">UPDATE CV</string>
+</resources>

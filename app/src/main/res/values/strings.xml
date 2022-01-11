@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ExamenRecuperacionPatricio</string>
+    <string name="botonrelativo">ACT RELATIVE</string>
+    <string name="mensaje">MENSAJE</string>
+    <string name="actbbdd">ACT BBDD</string>
+    <string name="nombremodelo">Modelo</string>
+    <string name="nombremarca">Marca</string>
+    <string name="cv">cv</string>
+    <string name="insert">INSERTAR</string>
+    <string name="MODIFICAR">MODIFICAR CV</string>
+</resources>
